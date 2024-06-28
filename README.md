@@ -1,5 +1,4 @@
 <h1>Open3DScan - is open source C++ framework (C++ 20 current)</h1>
-<hr>
 <h2>Platforms: all</h2>
 <h2>Libraries:</h2>
 <ul>
