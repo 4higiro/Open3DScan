@@ -8,7 +8,7 @@
 </ul>
 <hr>
 All tools are in the O3DS namespace<br>
-using namespace O3DS;
+using namespace O3DS;<br>
 <b>Modules:</b>
 <ul>
   <li>#include "Open3DScan/general.hpp" - all moduls</li>
