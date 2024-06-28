@@ -22,11 +22,11 @@ All tools are in the O3DS namespace<br>
   <li>`#include <Open3DScan/image_processing.hpp>` - blur, canny, line detection, rectangle detection</li>
   <li>`#include <Open3DScan/calculate_3D.hpp>` - camera calibration and point cloud processing</li>
 </ul>
-To work with an image, use this class:<br>
-`class img_t;`<br>
-To load and save images using the `O3DS::img_t` class not in the <b>BMP</b> format, you must independently implement algorithms for reading and writing from the `O3DS::streams::istream_interface_t` and `O3DS::streams::ostream_interface_t` stream, inheriting from the `O3DS::img_formats::format_interface_t` structure<br>
-The same applies to 3D model formats. His format interface is `O3DS::formats_3D::format_interface_t`<br>
-To calibrate cameras, create an instance of the `O3DS::proc_3d::cameras_pair_t` class. Its constructor accepts two images. They should show a hollow parallelepiped without rotation relative to both cameras. The geometric parameters of the parallelepiped must be known.<br>
+To work with an image, use this class:
+```class img_t;```<br>
+To load and save images using the ```O3DS::img_t``` class not in the <b>BMP</b> format, you must independently implement algorithms for reading and writing from the ```O3DS::streams::istream_interface_t``` and ```O3DS::streams::ostream_interface_t``` stream, inheriting from the ```O3DS::img_formats::format_interface_t``` structure<br>
+The same applies to 3D model formats. His format interface is ```O3DS::formats_3D::format_interface_t```<br>
+To calibrate cameras, create an instance of the ```O3DS::proc_3d::cameras_pair_t``` class. Its constructor accepts two images. They should show a hollow parallelepiped without rotation relative to both cameras. The geometric parameters of the parallelepiped must be known.<br>
 The rest should be obvious, good luck!
 
 
