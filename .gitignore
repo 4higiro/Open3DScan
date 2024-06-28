@@ -1,0 +1,8 @@
+*.sln
+*.vcxproj*
+x64/*
+resources/*
+include/*
+lib/*
+.vs/*
+source/main.cpp
