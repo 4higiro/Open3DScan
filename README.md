@@ -114,8 +114,7 @@ struct cameras_proc_data_t final
 };
 
 // Markers detection:
-O3DS::proc_2d::rectangle_detector_t:get_line(const img_t& img, std::list<math::vec2>& points) const noexcept; // safe existest points
-  math::vec2 get_point(const img_t& img, math::vec2 pixel) const noexcept;
+O3DS::proc_2d::rectangle_detector_t:get_line(const img_t& img, std::list<math::vec2>& points) const noexcept;
 
 // Calculation parametrs in:
 O3DS::proc_3d::cameras_pair_t::get_camera_rotation(proc_2d::rectangle_detector_t::rect_t source, math::vec3& target,
