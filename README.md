@@ -8,8 +8,11 @@
 </ul>
 <hr>
 All tools are in the O3DS namespace<br>
+
 ```cpp
-using namespace O3DS;
+template <typename Type>
+class Allocator
+// Type - тип аллоцируемого объекта
 ```
 
 
