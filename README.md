@@ -10,9 +10,7 @@
 All tools are in the O3DS namespace<br>
 
 ```cpp
-template <typename Type>
-class Allocator
-// Type - тип аллоцируемого объекта
+using namespace std;
 ```
 
 
