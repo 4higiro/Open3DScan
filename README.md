@@ -11,15 +11,15 @@ All tools are in the O3DS namespace<br>
 using namespace O3DS;<br>
 <b>Modules:</b>
 <ul>
-  <li>#include "Open3DScan/general.hpp" - all moduls</li>
-  <li>#include "Open3DScan/streams.hpp" - stream interface and std wrapper</li>
-  <li>#include "Open3DScan/image.hpp" - image implement</li>
-  <li>#include "Open3DScan/img_formats.hpp" - image formats interface and <b>BMP</b> implement</li>
-  <li>#include "Open3DScan/linear_math.hpp" - matrix and vector</li>
-  <li>#include "Open3DScan/numerics.hpp" - numerics methods</li>
-  <li>#include "Open3DScan/formats_3D.hpp" - 3D-model format interface and <b>PLY</b> implement</li>
-  <li>#include "Open3DScan/image_processing.hpp" - blur, canny, line detection, rectangle detection</li>
-  <li>#include "Open3DScan/calculate_3D.hpp" - camera calibration and point cloud processing</li>
+  <li> `#include "Open3DScan/general.hpp"` - all moduls</li>
+  <li> `#include "Open3DScan/streams.hpp"` - stream interface and std wrapper</li>
+  <li> `#include "Open3DScan/image.hpp"` - image implement</li>
+  <li> `#include "Open3DScan/img_formats.hpp"` - image formats interface and <b>BMP</b> implement</li>
+  <li> `#include "Open3DScan/linear_math.hpp"` - matrix and vector</li>
+  <li> `#include "Open3DScan/numerics.hpp"` - numerics methods</li>
+  <li> `#include "Open3DScan/formats_3D.hpp"` - 3D-model format interface and <b>PLY</b> implement</li>
+  <li> `#include "Open3DScan/image_processing.hpp"` - blur, canny, line detection, rectangle detection</li>
+  <li> `#include "Open3DScan/calculate_3D.hpp"` - camera calibration and point cloud processing</li>
 </ul>
 To work with an image, use this class:
 class img_t;<br>
