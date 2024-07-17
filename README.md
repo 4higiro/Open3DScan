@@ -60,6 +60,8 @@ using namespace O3DS;
 #include <Open3DScan/formats_3D.hpp>
 ```
 
+<h2>Development with Open3DScan</h2>
+
 The image processing module will work faster if the platform contains a parallel computing device, but there is also a simplified version for the CPU. To enable CPU calculation mode, switch the global flag to false
 
 ```cpp
