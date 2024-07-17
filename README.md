@@ -26,7 +26,7 @@ using namespace O3DS;
 ```
 
 ```cpp
-// Read/write image interface for other image formats (head only BMP implimentation)
+// Read/write image interface for other image formats (has only BMP implimentation)
 #include <Open3DScan/image_formats.hpp>
 ```
 
@@ -56,6 +56,13 @@ using namespace O3DS;
 ```
 
 ```cpp
-// Write point cloud interface for other model formats (head only PLY implimentation)
+// Write point cloud interface for other model formats (has only PLY implimentation)
 #include <Open3DScan/formats_3D.hpp>
+```
+
+The image processing module will work faster if the platform contains a parallel computing device, but there is also a simplified version for the CPU. To enable CPU calculation mode, switch the global flag to false
+
+```cpp
+// Disable parallel computing
+O3DS::compute::gpu_mode = false;
 ```
